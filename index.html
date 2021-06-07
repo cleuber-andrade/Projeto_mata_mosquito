@@ -11,11 +11,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body onresize="ajustaTamanhoPalcoJogo()">
+
+    <div class="painel">
+        <div class="vidas">
+            <img src="img/coracao_vazio.png" alt="">
+            <img src="img/coracao_cheio.png" alt="">
+            <img src="img/coracao_cheio.png" alt="">
+        </div>
+        <div class="cronometro">
+            Tempo Restante: 
+        </div>
+    </div>
+
     
     
 
-    <script>
-        posicaoRandomica()
+    <script>       
+
+        setInterval(function() {
+            posicaoRandomica()
+        }, 1000)
     </script>
 </body>
 </html>
