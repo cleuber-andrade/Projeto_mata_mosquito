@@ -2,6 +2,8 @@
 var altura = 0
 var largura = 0
 var vidas = 1
+var tempo = 15
+
 
 function ajustaTamanhoPalcoJogo(){
     altura = window.innerHeight
@@ -12,6 +14,22 @@ function ajustaTamanhoPalcoJogo(){
 }
 
 ajustaTamanhoPalcoJogo()
+
+var contagem = setInterval(function(){
+
+    tempo -= 1
+
+    if(tempo < 0){
+        clearInterval(contagem)
+        clearInterval(criaMosquito)
+        alert('vitoria')
+    }
+    else {
+        document.getElementById('contagem').innerHTML = tempo
+    }
+    
+    
+} ,1000)
 
 function posicaoRandomica(){
 

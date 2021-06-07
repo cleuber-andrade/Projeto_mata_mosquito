@@ -19,7 +19,7 @@
             <img id="v3" src="img/coracao_cheio.png" alt="">
         </div>
         <div class="cronometro">
-            Tempo Restante: 
+            Tempo Restante: <span id="contagem"></span>
         </div>
     </div>
 
@@ -28,7 +28,10 @@
 
     <script>       
 
-        setInterval(function() {
+        document.getElementById('contagem').innerHTML = tempo
+
+
+        var criaMosquito = setInterval(function() {
             posicaoRandomica()
         }, 2000)
     </script>
