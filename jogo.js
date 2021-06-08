@@ -4,6 +4,9 @@ var largura = 0
 var vidas = 1
 var tempo = 15
 
+
+//tempo jogo
+
 var criaMosquitoTempo = 1500
 
 var nivel = window.location.search
@@ -20,6 +23,7 @@ if (nivel === 'normal'){
     criaMosquitoTempo = 750
 }
 
+//altura e lasrgura na tela
 
 function ajustaTamanhoPalcoJogo(){
     altura = window.innerHeight
@@ -30,6 +34,9 @@ function ajustaTamanhoPalcoJogo(){
 }
 
 ajustaTamanhoPalcoJogo()
+
+
+// contagem de vida
 
 var contagem = setInterval(function(){
 
@@ -46,6 +53,9 @@ var contagem = setInterval(function(){
     
     
 } ,1000)
+
+
+//posição aleatória dos mosquitos
 
 function posicaoRandomica(){
 
@@ -91,6 +101,8 @@ function posicaoRandomica(){
     
     console.log(tamanhoAleatorio())
 }
+
+//alteração de tamanhos dos mosqui
 
 
 function tamanhoAleatorio () {
