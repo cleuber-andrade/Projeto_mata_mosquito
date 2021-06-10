@@ -120,6 +120,8 @@ function tamanhoAleatorio () {
     }
 }
 
+//alteração de tamanhos dos mosquitos
+
 function ladoAleatorio() {
     var classe = Math.floor(Math.random () * 2)
     
