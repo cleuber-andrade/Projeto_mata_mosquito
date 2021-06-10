@@ -102,7 +102,7 @@ function posicaoRandomica(){
     console.log(tamanhoAleatorio())
 }
 
-//alteração de tamanhos dos mosqui
+//alteração de tamanhos dos mosquito
 
 
 function tamanhoAleatorio () {
