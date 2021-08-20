@@ -28,7 +28,7 @@ Praticar conhecimentos sobre em JavaScript
 
 ## :pager: Tela principal da Site Moon Light
 
- <img src="https://github.com/cleuber-andrade/agendamento_consultorio/blob/main/img/agendamento.jpg" alt="Tela Principal">
+ <img src="https://github.com/cleuber-andrade/projeto_mata_mosquito/blob/main/img/matamosquito.jpg" alt="Tela Principal">
 
 ## :globe_with_meridians: Link para acessar site no GitHubPages
 
