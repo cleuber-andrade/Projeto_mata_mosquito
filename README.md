@@ -26,7 +26,7 @@ Praticar conhecimentos sobre em JavaScript
 </div> <br> 
 
 
-## :pager: Tela principal da Site Moon Light
+## :pager: Tela principal da App Mata Mosquito
 
  <img src="https://github.com/cleuber-andrade/projeto_mata_mosquito/blob/main/img/matamosquito.jpg" alt="Tela Principal">
 
